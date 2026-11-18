@@ -1,7 +1,5 @@
 package ch13.sec05;
 
-import javax.management.modelmbean.ModelMBeanOperationInfo;
-
 public class GenericExample
 {
     public static void main(String[] args) {
