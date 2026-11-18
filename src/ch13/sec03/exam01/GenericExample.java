@@ -4,9 +4,9 @@ public class GenericExample
 { // 제네릭 메서드
     public static <T> Box<T> boxing(T t)
     {
-        Box<T> box  = new Box<T>();
-        box.set(t);
-        return box;
+        Box<T> box  = new Box<T>(); // 상자 하나 가져와서
+        box.set(t); // 받은 물건 넣고
+        return box; // 상자를 건네줌
     }
 
     public static void main(String[] args)
