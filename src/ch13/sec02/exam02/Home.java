@@ -8,3 +8,5 @@ public class Home
     }
 }
 
+// 대여 상품 1 집
+
